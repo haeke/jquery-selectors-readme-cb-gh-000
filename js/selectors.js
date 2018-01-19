@@ -5,9 +5,11 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  $('img:last');
+  var img = $('img:last');
+  return img;
 }
 
 function ninjaBabySelector() {
-  $('#baby-ninja');
+  var baby-ninja = $('#baby-ninja');
+  return baby-ninja;
 }
